@@ -78,24 +78,92 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
-
-
-
+```
+Mov AL, 05H
+Mov BL, 03H
+ADD AL,BL
+HLT
+```
 ## Output  
- 
+<img width="1066" height="552" alt="image" src="https://github.com/user-attachments/assets/27203678-1b5f-47dc-b5aa-5d261e426637" />
+
 ## Subtraction   of 8 bit numbers  ALP 
- 
-## Output  
-## Multiplication alp 
- ## Output  
+```
+Mov AL, 05H
+Mov BL, 03H
+SUB AL,BL
+HLT
+```
+## Output 
+<img width="1070" height="564" alt="Screenshot 2025-08-19 140939" src="https://github.com/user-attachments/assets/f92e4fc4-76a5-44f1-8af2-85eff37f223f" />
 
+## Multiplication alp 
+```
+Mov AL, 05H
+Mov BL, 03H
+MUL BL
+HLT
+```
+## Output  
+<img width="1063" height="554" alt="image" src="https://github.com/user-attachments/assets/8fd2468b-51d7-4964-9ce9-a679a439caba" />
 
 ## Division alp 
-
+```
+Mov AL, 05H
+Mov BL, 03H
+Div BL
+HLT
+```
 ## Output  
+<img width="1067" height="552" alt="image" src="https://github.com/user-attachments/assets/a9284e37-138e-44fe-b3aa-7c2275a87392" />
+
+
+
+## Programs for Logical Operations
+
+## AND
+```
+Mov AL, 05H
+Mov BL, 03H
+AND AL,BL
+HLT
+```
+## Output
+<img width="1060" height="548" alt="image" src="https://github.com/user-attachments/assets/f3fd85f1-e2ab-4cbc-90f3-1992328a9755" />
+
+## OR
+```
+Mov AL, 05H
+Mov BL, 03H
+OR AL,BL
+HLT
+```
+## Output
+<img width="1068" height="568" alt="image" src="https://github.com/user-attachments/assets/f601da09-e0fc-4fc7-90e8-6202efa0fff1" />
+
+## NOT
+```
+Mov AL, 05H
+Mov BL, 03H
+NOT AL
+HLT
+```
+## Output
+<img width="1070" height="569" alt="image" src="https://github.com/user-attachments/assets/965ccd86-4a62-4d14-9557-da93e7a4a09c" />
+
+## EX-OR
+```
+Mov AL, 05H
+Mov BL, 03H
+XOR AL,BL
+HLT
+```
+## Output
+<img width="1066" height="561" alt="image" src="https://github.com/user-attachments/assets/55f31a44-2089-4e69-a2df-8b693fa832be" />
 
 
 ## Result :
+The execution of ALP on fundamental arithmetic and logical operations is successfully completed.
  
 
 
